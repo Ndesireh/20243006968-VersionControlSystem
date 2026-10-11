@@ -46,7 +46,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginEnd="8dp"
-            android:text="Log In" />
+            android:text="Log In"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#000000" />
 
         <Button
             android:id="@+id/cancelButton"
@@ -54,7 +56,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_marginStart="8dp"
-            android:text="Cancel" />
+            android:text="Cancel"
+            android:textColor="#FFFFFF"
+            app:backgroundTint="#000000" />
 
     </LinearLayout>
 
